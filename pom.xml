@@ -37,20 +37,55 @@
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-devtools</artifactId>
-			<scope>runtime</scope>
-			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
 
+<!--  for viewing jsp files-->
 		<dependency>
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
+
+<!--		for using jstl tags-->
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		</dependency>
+
+<!--		for dev tools and actuator   -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-devtools -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+			<version>3.3.1</version>
+		</dependency>
+
+
+<!--		bootstrap ->  one of the popular css framework-->
+		<!-- https://mvnrepository.com/artifact/org.webjars/bootstrap -->
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>bootstrap</artifactId>
+			<version>5.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.webjars</groupId>
+			<artifactId>jquery</artifactId>
+			<version>3.6.0</version>
+		</dependency>
+
 
 	</dependencies>
 
